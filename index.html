@@ -107,14 +107,36 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <a href="https://www.google.com" target="_blank" class="button" id="external-link">Externer Link</a>
   </div>
 
-  <div id="produkte" class="tab">
-    <h2>Produkte</h2>
-    <p>Produkt A</p>
-    <button class="button add-to-cart" data-product="Produkt A">In den Warenkorb</button><br><br>
+<!-- Ergänze im <div id="produkte" class="tab"> diesen Inhalt: -->
 
-    <p>Produkt B</p>
-    <button class="button add-to-cart" data-product="Produkt B">In den Warenkorb</button>
+<div id="produkte" class="tab">
+  <h2>Produkte</h2>
+
+  <p>Produkt A</p>
+  <button class="button add-to-cart" data-product="Produkt A">In den Warenkorb</button><br><br>
+  <!-- PDF Download für Produkt A -->
+  <a href="downloads/produktA-beschreibung.pdf" class="button" download>📄 PDF zu Produkt A</a><br><br>
+
+  <p>Produkt B</p>
+  <button class="button add-to-cart" data-product="Produkt B">In den Warenkorb</button><br><br>
+  <!-- PDF Download für Produkt B -->
+  <a href="downloads/produktB-beschreibung.pdf" class="button" download>📄 PDF zu Produkt B</a><br><br>
+
+  <!-- Langer Dummy-Content für Scrolltiefe -->
+  <div style="margin-top:40px;">
+    <h3>Weitere Informationen</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus...</p>
+    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae...</p>
+    <p>Nulla facilisi. Proin gravida nibh vel velit auctor aliquet...</p>
+    <p>Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue...</p>
+    <p>Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis...</p>
+    <p>Scroll weiter...</p>
+    <p>Scroll noch weiter...</p>
+    <p>Fast geschafft...</p>
+    <p>Letzter Abschnitt!</p>
+    <p style="padding-bottom:300px;">Ende der Seite.</p>
   </div>
+</div>
 
   <div id="kontakt" class="tab">
     <h2>Kontakt</h2>
